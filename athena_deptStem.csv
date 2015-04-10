@@ -1,0 +1,631 @@
+key,value,date
+Assess & Diagnose,145,06/01/12
+Assess & Diagnose,33,06/02/12
+Assess & Diagnose,0,06/03/12
+Assess & Diagnose,236,06/04/12
+Assess & Diagnose,185,06/05/12
+Assess & Diagnose,195,06/06/12
+Assess & Diagnose,217,06/07/12
+Assess & Diagnose,173,06/08/12
+Assess & Diagnose,14,06/09/12
+Assess & Diagnose,1,06/10/12
+Assess & Diagnose,202,06/11/12
+Assess & Diagnose,177,06/12/12
+Assess & Diagnose,164,06/13/12
+Assess & Diagnose,171,06/14/12
+Assess & Diagnose,176,06/15/12
+Assess & Diagnose,36,06/16/12
+Assess & Diagnose,0,06/17/12
+Assess & Diagnose,188,06/18/12
+Assess & Diagnose,153,06/19/12
+Assess & Diagnose,160,06/20/12
+Assess & Diagnose,156,06/21/12
+Assess & Diagnose,168,06/22/12
+Assess & Diagnose,0,06/23/12
+Assess & Diagnose,0,06/24/12
+Assess & Diagnose,225,06/25/12
+Assess & Diagnose,162,06/26/12
+Assess & Diagnose,213,06/27/12
+Assess & Diagnose,209,06/28/12
+Assess & Diagnose,131,06/29/12
+Assess & Diagnose,12,06/30/12
+Collect Clinical Encounter Reason,957,06/01/12
+Collect Clinical Encounter Reason,155,06/02/12
+Collect Clinical Encounter Reason,0,06/03/12
+Collect Clinical Encounter Reason,1497,06/04/12
+Collect Clinical Encounter Reason,1291,06/05/12
+Collect Clinical Encounter Reason,1228,06/06/12
+Collect Clinical Encounter Reason,1242,06/07/12
+Collect Clinical Encounter Reason,1028,06/08/12
+Collect Clinical Encounter Reason,103,06/09/12
+Collect Clinical Encounter Reason,0,06/10/12
+Collect Clinical Encounter Reason,1294,06/11/12
+Collect Clinical Encounter Reason,1225,06/12/12
+Collect Clinical Encounter Reason,1077,06/13/12
+Collect Clinical Encounter Reason,1022,06/14/12
+Collect Clinical Encounter Reason,1172,06/15/12
+Collect Clinical Encounter Reason,102,06/16/12
+Collect Clinical Encounter Reason,0,06/17/12
+Collect Clinical Encounter Reason,1241,06/18/12
+Collect Clinical Encounter Reason,1166,06/19/12
+Collect Clinical Encounter Reason,1026,06/20/12
+Collect Clinical Encounter Reason,1021,06/21/12
+Collect Clinical Encounter Reason,997,06/22/12
+Collect Clinical Encounter Reason,0,06/23/12
+Collect Clinical Encounter Reason,0,06/24/12
+Collect Clinical Encounter Reason,1349,06/25/12
+Collect Clinical Encounter Reason,1273,06/26/12
+Collect Clinical Encounter Reason,1187,06/27/12
+Collect Clinical Encounter Reason,1242,06/28/12
+Collect Clinical Encounter Reason,1232,06/29/12
+Collect Clinical Encounter Reason,105,06/30/12
+Collect History of Present Illness,1043,06/01/12
+Collect History of Present Illness,149,06/02/12
+Collect History of Present Illness,0,06/03/12
+Collect History of Present Illness,1568,06/04/12
+Collect History of Present Illness,1339,06/05/12
+Collect History of Present Illness,1327,06/06/12
+Collect History of Present Illness,1265,06/07/12
+Collect History of Present Illness,1050,06/08/12
+Collect History of Present Illness,148,06/09/12
+Collect History of Present Illness,0,06/10/12
+Collect History of Present Illness,1448,06/11/12
+Collect History of Present Illness,1269,06/12/12
+Collect History of Present Illness,1149,06/13/12
+Collect History of Present Illness,1152,06/14/12
+Collect History of Present Illness,1262,06/15/12
+Collect History of Present Illness,103,06/16/12
+Collect History of Present Illness,0,06/17/12
+Collect History of Present Illness,1301,06/18/12
+Collect History of Present Illness,1186,06/19/12
+Collect History of Present Illness,1098,06/20/12
+Collect History of Present Illness,1124,06/21/12
+Collect History of Present Illness,977,06/22/12
+Collect History of Present Illness,0,06/23/12
+Collect History of Present Illness,0,06/24/12
+Collect History of Present Illness,1410,06/25/12
+Collect History of Present Illness,1313,06/26/12
+Collect History of Present Illness,1305,06/27/12
+Collect History of Present Illness,1378,06/28/12
+Collect History of Present Illness,1382,06/29/12
+Collect History of Present Illness,120,06/30/12
+Collect Vitals,3852,06/01/12
+Collect Vitals,570,06/02/12
+Collect Vitals,0,06/03/12
+Collect Vitals,6124,06/04/12
+Collect Vitals,5333,06/05/12
+Collect Vitals,5059,06/06/12
+Collect Vitals,4942,06/07/12
+Collect Vitals,4261,06/08/12
+Collect Vitals,378,06/09/12
+Collect Vitals,0,06/10/12
+Collect Vitals,5556,06/11/12
+Collect Vitals,4933,06/12/12
+Collect Vitals,4630,06/13/12
+Collect Vitals,4165,06/14/12
+Collect Vitals,4890,06/15/12
+Collect Vitals,364,06/16/12
+Collect Vitals,0,06/17/12
+Collect Vitals,5223,06/18/12
+Collect Vitals,4584,06/19/12
+Collect Vitals,4429,06/20/12
+Collect Vitals,3996,06/21/12
+Collect Vitals,4031,06/22/12
+Collect Vitals,0,06/23/12
+Collect Vitals,0,06/24/12
+Collect Vitals,5653,06/25/12
+Collect Vitals,5221,06/26/12
+Collect Vitals,5035,06/27/12
+Collect Vitals,5095,06/28/12
+Collect Vitals,5184,06/29/12
+Collect Vitals,389,06/30/12
+Collect/Update Confidential Information,0,06/01/12
+Collect/Update Confidential Information,0,06/02/12
+Collect/Update Confidential Information,0,06/03/12
+Collect/Update Confidential Information,2,06/04/12
+Collect/Update Confidential Information,7,06/05/12
+Collect/Update Confidential Information,3,06/06/12
+Collect/Update Confidential Information,1,06/07/12
+Collect/Update Confidential Information,1,06/08/12
+Collect/Update Confidential Information,0,06/09/12
+Collect/Update Confidential Information,0,06/10/12
+Collect/Update Confidential Information,1,06/11/12
+Collect/Update Confidential Information,3,06/12/12
+Collect/Update Confidential Information,2,06/13/12
+Collect/Update Confidential Information,1,06/14/12
+Collect/Update Confidential Information,0,06/15/12
+Collect/Update Confidential Information,0,06/16/12
+Collect/Update Confidential Information,0,06/17/12
+Collect/Update Confidential Information,5,06/18/12
+Collect/Update Confidential Information,2,06/19/12
+Collect/Update Confidential Information,1,06/20/12
+Collect/Update Confidential Information,0,06/21/12
+Collect/Update Confidential Information,1,06/22/12
+Collect/Update Confidential Information,0,06/23/12
+Collect/Update Confidential Information,0,06/24/12
+Collect/Update Confidential Information,1,06/25/12
+Collect/Update Confidential Information,1,06/26/12
+Collect/Update Confidential Information,3,06/27/12
+Collect/Update Confidential Information,0,06/28/12
+Collect/Update Confidential Information,2,06/29/12
+Collect/Update Confidential Information,0,06/30/12
+Collect/Update Social History,436,06/01/12
+Collect/Update Social History,40,06/02/12
+Collect/Update Social History,0,06/03/12
+Collect/Update Social History,667,06/04/12
+Collect/Update Social History,603,06/05/12
+Collect/Update Social History,512,06/06/12
+Collect/Update Social History,553,06/07/12
+Collect/Update Social History,434,06/08/12
+Collect/Update Social History,54,06/09/12
+Collect/Update Social History,0,06/10/12
+Collect/Update Social History,522,06/11/12
+Collect/Update Social History,538,06/12/12
+Collect/Update Social History,492,06/13/12
+Collect/Update Social History,528,06/14/12
+Collect/Update Social History,532,06/15/12
+Collect/Update Social History,26,06/16/12
+Collect/Update Social History,0,06/17/12
+Collect/Update Social History,539,06/18/12
+Collect/Update Social History,536,06/19/12
+Collect/Update Social History,506,06/20/12
+Collect/Update Social History,441,06/21/12
+Collect/Update Social History,429,06/22/12
+Collect/Update Social History,0,06/23/12
+Collect/Update Social History,0,06/24/12
+Collect/Update Social History,607,06/25/12
+Collect/Update Social History,624,06/26/12
+Collect/Update Social History,593,06/27/12
+Collect/Update Social History,593,06/28/12
+Collect/Update Social History,558,06/29/12
+Collect/Update Social History,21,06/30/12
+Collect/Update Special History,132,06/01/12
+Collect/Update Special History,18,06/02/12
+Collect/Update Special History,0,06/03/12
+Collect/Update Special History,215,06/04/12
+Collect/Update Special History,191,06/05/12
+Collect/Update Special History,158,06/06/12
+Collect/Update Special History,150,06/07/12
+Collect/Update Special History,144,06/08/12
+Collect/Update Special History,9,06/09/12
+Collect/Update Special History,0,06/10/12
+Collect/Update Special History,102,06/11/12
+Collect/Update Special History,187,06/12/12
+Collect/Update Special History,162,06/13/12
+Collect/Update Special History,148,06/14/12
+Collect/Update Special History,135,06/15/12
+Collect/Update Special History,8,06/16/12
+Collect/Update Special History,0,06/17/12
+Collect/Update Special History,123,06/18/12
+Collect/Update Special History,176,06/19/12
+Collect/Update Special History,115,06/20/12
+Collect/Update Special History,105,06/21/12
+Collect/Update Special History,120,06/22/12
+Collect/Update Special History,0,06/23/12
+Collect/Update Special History,0,06/24/12
+Collect/Update Special History,160,06/25/12
+Collect/Update Special History,177,06/26/12
+Collect/Update Special History,150,06/27/12
+Collect/Update Special History,140,06/28/12
+Collect/Update Special History,148,06/29/12
+Collect/Update Special History,5,06/30/12
+Collect/Update/Review Patient Provider List Information,4,06/01/12
+Collect/Update/Review Patient Provider List Information,0,06/02/12
+Collect/Update/Review Patient Provider List Information,0,06/03/12
+Collect/Update/Review Patient Provider List Information,16,06/04/12
+Collect/Update/Review Patient Provider List Information,17,06/05/12
+Collect/Update/Review Patient Provider List Information,3,06/06/12
+Collect/Update/Review Patient Provider List Information,2,06/07/12
+Collect/Update/Review Patient Provider List Information,13,06/08/12
+Collect/Update/Review Patient Provider List Information,2,06/09/12
+Collect/Update/Review Patient Provider List Information,0,06/10/12
+Collect/Update/Review Patient Provider List Information,14,06/11/12
+Collect/Update/Review Patient Provider List Information,10,06/12/12
+Collect/Update/Review Patient Provider List Information,9,06/13/12
+Collect/Update/Review Patient Provider List Information,0,06/14/12
+Collect/Update/Review Patient Provider List Information,11,06/15/12
+Collect/Update/Review Patient Provider List Information,0,06/16/12
+Collect/Update/Review Patient Provider List Information,0,06/17/12
+Collect/Update/Review Patient Provider List Information,12,06/18/12
+Collect/Update/Review Patient Provider List Information,13,06/19/12
+Collect/Update/Review Patient Provider List Information,3,06/20/12
+Collect/Update/Review Patient Provider List Information,3,06/21/12
+Collect/Update/Review Patient Provider List Information,13,06/22/12
+Collect/Update/Review Patient Provider List Information,0,06/23/12
+Collect/Update/Review Patient Provider List Information,0,06/24/12
+Collect/Update/Review Patient Provider List Information,12,06/25/12
+Collect/Update/Review Patient Provider List Information,15,06/26/12
+Collect/Update/Review Patient Provider List Information,1,06/27/12
+Collect/Update/Review Patient Provider List Information,3,06/28/12
+Collect/Update/Review Patient Provider List Information,15,06/29/12
+Collect/Update/Review Patient Provider List Information,0,06/30/12
+Conduct & Document Evaluation & Management,0,06/01/12
+Conduct & Document Evaluation & Management,0,06/02/12
+Conduct & Document Evaluation & Management,0,06/03/12
+Conduct & Document Evaluation & Management,10,06/04/12
+Conduct & Document Evaluation & Management,2,06/05/12
+Conduct & Document Evaluation & Management,2,06/06/12
+Conduct & Document Evaluation & Management,2,06/07/12
+Conduct & Document Evaluation & Management,0,06/08/12
+Conduct & Document Evaluation & Management,0,06/09/12
+Conduct & Document Evaluation & Management,0,06/10/12
+Conduct & Document Evaluation & Management,2,06/11/12
+Conduct & Document Evaluation & Management,0,06/12/12
+Conduct & Document Evaluation & Management,0,06/13/12
+Conduct & Document Evaluation & Management,2,06/14/12
+Conduct & Document Evaluation & Management,4,06/15/12
+Conduct & Document Evaluation & Management,0,06/16/12
+Conduct & Document Evaluation & Management,0,06/17/12
+Conduct & Document Evaluation & Management,4,06/18/12
+Conduct & Document Evaluation & Management,0,06/19/12
+Conduct & Document Evaluation & Management,0,06/20/12
+Conduct & Document Evaluation & Management,0,06/21/12
+Conduct & Document Evaluation & Management,2,06/22/12
+Conduct & Document Evaluation & Management,0,06/23/12
+Conduct & Document Evaluation & Management,0,06/24/12
+Conduct & Document Evaluation & Management,2,06/25/12
+Conduct & Document Evaluation & Management,2,06/26/12
+Conduct & Document Evaluation & Management,4,06/27/12
+Conduct & Document Evaluation & Management,0,06/28/12
+Conduct & Document Evaluation & Management,4,06/29/12
+Conduct & Document Evaluation & Management,0,06/30/12
+Conduct Physical Exam,1216,06/01/12
+Conduct Physical Exam,181,06/02/12
+Conduct Physical Exam,0,06/03/12
+Conduct Physical Exam,1803,06/04/12
+Conduct Physical Exam,1630,06/05/12
+Conduct Physical Exam,1561,06/06/12
+Conduct Physical Exam,1555,06/07/12
+Conduct Physical Exam,1258,06/08/12
+Conduct Physical Exam,119,06/09/12
+Conduct Physical Exam,0,06/10/12
+Conduct Physical Exam,1694,06/11/12
+Conduct Physical Exam,1489,06/12/12
+Conduct Physical Exam,1333,06/13/12
+Conduct Physical Exam,1365,06/14/12
+Conduct Physical Exam,1466,06/15/12
+Conduct Physical Exam,127,06/16/12
+Conduct Physical Exam,0,06/17/12
+Conduct Physical Exam,1601,06/18/12
+Conduct Physical Exam,1465,06/19/12
+Conduct Physical Exam,1306,06/20/12
+Conduct Physical Exam,1333,06/21/12
+Conduct Physical Exam,1213,06/22/12
+Conduct Physical Exam,0,06/23/12
+Conduct Physical Exam,0,06/24/12
+Conduct Physical Exam,1709,06/25/12
+Conduct Physical Exam,1540,06/26/12
+Conduct Physical Exam,1510,06/27/12
+Conduct Physical Exam,1588,06/28/12
+Conduct Physical Exam,1487,06/29/12
+Conduct Physical Exam,132,06/30/12
+Conduct Procedure,37,06/01/12
+Conduct Procedure,10,06/02/12
+Conduct Procedure,0,06/03/12
+Conduct Procedure,46,06/04/12
+Conduct Procedure,42,06/05/12
+Conduct Procedure,40,06/06/12
+Conduct Procedure,56,06/07/12
+Conduct Procedure,46,06/08/12
+Conduct Procedure,4,06/09/12
+Conduct Procedure,0,06/10/12
+Conduct Procedure,42,06/11/12
+Conduct Procedure,53,06/12/12
+Conduct Procedure,38,06/13/12
+Conduct Procedure,28,06/14/12
+Conduct Procedure,71,06/15/12
+Conduct Procedure,0,06/16/12
+Conduct Procedure,0,06/17/12
+Conduct Procedure,57,06/18/12
+Conduct Procedure,68,06/19/12
+Conduct Procedure,46,06/20/12
+Conduct Procedure,51,06/21/12
+Conduct Procedure,43,06/22/12
+Conduct Procedure,0,06/23/12
+Conduct Procedure,0,06/24/12
+Conduct Procedure,50,06/25/12
+Conduct Procedure,60,06/26/12
+Conduct Procedure,43,06/27/12
+Conduct Procedure,48,06/28/12
+Conduct Procedure,92,06/29/12
+Conduct Procedure,2,06/30/12
+Conduct Review of Systems,766,06/01/12
+Conduct Review of Systems,145,06/02/12
+Conduct Review of Systems,0,06/03/12
+Conduct Review of Systems,1197,06/04/12
+Conduct Review of Systems,979,06/05/12
+Conduct Review of Systems,1003,06/06/12
+Conduct Review of Systems,952,06/07/12
+Conduct Review of Systems,795,06/08/12
+Conduct Review of Systems,74,06/09/12
+Conduct Review of Systems,0,06/10/12
+Conduct Review of Systems,1124,06/11/12
+Conduct Review of Systems,888,06/12/12
+Conduct Review of Systems,838,06/13/12
+Conduct Review of Systems,940,06/14/12
+Conduct Review of Systems,1030,06/15/12
+Conduct Review of Systems,100,06/16/12
+Conduct Review of Systems,0,06/17/12
+Conduct Review of Systems,1117,06/18/12
+Conduct Review of Systems,857,06/19/12
+Conduct Review of Systems,933,06/20/12
+Conduct Review of Systems,803,06/21/12
+Conduct Review of Systems,829,06/22/12
+Conduct Review of Systems,0,06/23/12
+Conduct Review of Systems,0,06/24/12
+Conduct Review of Systems,1147,06/25/12
+Conduct Review of Systems,974,06/26/12
+Conduct Review of Systems,1036,06/27/12
+Conduct Review of Systems,973,06/28/12
+Conduct Review of Systems,950,06/29/12
+Conduct Review of Systems,126,06/30/12
+Creating/Sending Out Orders,1075,06/01/12
+Creating/Sending Out Orders,138,06/02/12
+Creating/Sending Out Orders,14,06/03/12
+Creating/Sending Out Orders,1578,06/04/12
+Creating/Sending Out Orders,1471,06/05/12
+Creating/Sending Out Orders,1355,06/06/12
+Creating/Sending Out Orders,1291,06/07/12
+Creating/Sending Out Orders,1082,06/08/12
+Creating/Sending Out Orders,94,06/09/12
+Creating/Sending Out Orders,31,06/10/12
+Creating/Sending Out Orders,1502,06/11/12
+Creating/Sending Out Orders,1313,06/12/12
+Creating/Sending Out Orders,1220,06/13/12
+Creating/Sending Out Orders,1113,06/14/12
+Creating/Sending Out Orders,1277,06/15/12
+Creating/Sending Out Orders,104,06/16/12
+Creating/Sending Out Orders,8,06/17/12
+Creating/Sending Out Orders,1350,06/18/12
+Creating/Sending Out Orders,1360,06/19/12
+Creating/Sending Out Orders,1191,06/20/12
+Creating/Sending Out Orders,1169,06/21/12
+Creating/Sending Out Orders,1056,06/22/12
+Creating/Sending Out Orders,14,06/23/12
+Creating/Sending Out Orders,8,06/24/12
+Creating/Sending Out Orders,1455,06/25/12
+Creating/Sending Out Orders,1306,06/26/12
+Creating/Sending Out Orders,1339,06/27/12
+Creating/Sending Out Orders,1380,06/28/12
+Creating/Sending Out Orders,1338,06/29/12
+Creating/Sending Out Orders,94,06/30/12
+Enter Patient Flow Tracking,470,06/01/12
+Enter Patient Flow Tracking,84,06/02/12
+Enter Patient Flow Tracking,0,06/03/12
+Enter Patient Flow Tracking,739,06/04/12
+Enter Patient Flow Tracking,654,06/05/12
+Enter Patient Flow Tracking,585,06/06/12
+Enter Patient Flow Tracking,578,06/07/12
+Enter Patient Flow Tracking,404,06/08/12
+Enter Patient Flow Tracking,30,06/09/12
+Enter Patient Flow Tracking,0,06/10/12
+Enter Patient Flow Tracking,619,06/11/12
+Enter Patient Flow Tracking,604,06/12/12
+Enter Patient Flow Tracking,595,06/13/12
+Enter Patient Flow Tracking,515,06/14/12
+Enter Patient Flow Tracking,540,06/15/12
+Enter Patient Flow Tracking,60,06/16/12
+Enter Patient Flow Tracking,0,06/17/12
+Enter Patient Flow Tracking,653,06/18/12
+Enter Patient Flow Tracking,575,06/19/12
+Enter Patient Flow Tracking,503,06/20/12
+Enter Patient Flow Tracking,488,06/21/12
+Enter Patient Flow Tracking,487,06/22/12
+Enter Patient Flow Tracking,0,06/23/12
+Enter Patient Flow Tracking,0,06/24/12
+Enter Patient Flow Tracking,667,06/25/12
+Enter Patient Flow Tracking,616,06/26/12
+Enter Patient Flow Tracking,595,06/27/12
+Enter Patient Flow Tracking,644,06/28/12
+Enter Patient Flow Tracking,554,06/29/12
+Enter Patient Flow Tracking,65,06/30/12
+Interpret Incoming Clinical Data,49,06/01/12
+Interpret Incoming Clinical Data,5,06/02/12
+Interpret Incoming Clinical Data,0,06/03/12
+Interpret Incoming Clinical Data,87,06/04/12
+Interpret Incoming Clinical Data,98,06/05/12
+Interpret Incoming Clinical Data,79,06/06/12
+Interpret Incoming Clinical Data,75,06/07/12
+Interpret Incoming Clinical Data,66,06/08/12
+Interpret Incoming Clinical Data,7,06/09/12
+Interpret Incoming Clinical Data,0,06/10/12
+Interpret Incoming Clinical Data,70,06/11/12
+Interpret Incoming Clinical Data,67,06/12/12
+Interpret Incoming Clinical Data,76,06/13/12
+Interpret Incoming Clinical Data,64,06/14/12
+Interpret Incoming Clinical Data,65,06/15/12
+Interpret Incoming Clinical Data,3,06/16/12
+Interpret Incoming Clinical Data,0,06/17/12
+Interpret Incoming Clinical Data,55,06/18/12
+Interpret Incoming Clinical Data,76,06/19/12
+Interpret Incoming Clinical Data,64,06/20/12
+Interpret Incoming Clinical Data,59,06/21/12
+Interpret Incoming Clinical Data,72,06/22/12
+Interpret Incoming Clinical Data,0,06/23/12
+Interpret Incoming Clinical Data,0,06/24/12
+Interpret Incoming Clinical Data,81,06/25/12
+Interpret Incoming Clinical Data,76,06/26/12
+Interpret Incoming Clinical Data,78,06/27/12
+Interpret Incoming Clinical Data,82,06/28/12
+Interpret Incoming Clinical Data,76,06/29/12
+Interpret Incoming Clinical Data,4,06/30/12
+Plan For or Schedule Follow-Up Appointment,64,06/01/12
+Plan For or Schedule Follow-Up Appointment,3,06/02/12
+Plan For or Schedule Follow-Up Appointment,0,06/03/12
+Plan For or Schedule Follow-Up Appointment,75,06/04/12
+Plan For or Schedule Follow-Up Appointment,134,06/05/12
+Plan For or Schedule Follow-Up Appointment,58,06/06/12
+Plan For or Schedule Follow-Up Appointment,73,06/07/12
+Plan For or Schedule Follow-Up Appointment,69,06/08/12
+Plan For or Schedule Follow-Up Appointment,2,06/09/12
+Plan For or Schedule Follow-Up Appointment,0,06/10/12
+Plan For or Schedule Follow-Up Appointment,76,06/11/12
+Plan For or Schedule Follow-Up Appointment,106,06/12/12
+Plan For or Schedule Follow-Up Appointment,64,06/13/12
+Plan For or Schedule Follow-Up Appointment,55,06/14/12
+Plan For or Schedule Follow-Up Appointment,96,06/15/12
+Plan For or Schedule Follow-Up Appointment,0,06/16/12
+Plan For or Schedule Follow-Up Appointment,0,06/17/12
+Plan For or Schedule Follow-Up Appointment,73,06/18/12
+Plan For or Schedule Follow-Up Appointment,100,06/19/12
+Plan For or Schedule Follow-Up Appointment,70,06/20/12
+Plan For or Schedule Follow-Up Appointment,76,06/21/12
+Plan For or Schedule Follow-Up Appointment,71,06/22/12
+Plan For or Schedule Follow-Up Appointment,0,06/23/12
+Plan For or Schedule Follow-Up Appointment,0,06/24/12
+Plan For or Schedule Follow-Up Appointment,67,06/25/12
+Plan For or Schedule Follow-Up Appointment,111,06/26/12
+Plan For or Schedule Follow-Up Appointment,68,06/27/12
+Plan For or Schedule Follow-Up Appointment,70,06/28/12
+Plan For or Schedule Follow-Up Appointment,76,06/29/12
+Plan For or Schedule Follow-Up Appointment,1,06/30/12
+Review Social History,215,06/01/12
+Review Social History,20,06/02/12
+Review Social History,0,06/03/12
+Review Social History,331,06/04/12
+Review Social History,301,06/05/12
+Review Social History,252,06/06/12
+Review Social History,272,06/07/12
+Review Social History,214,06/08/12
+Review Social History,27,06/09/12
+Review Social History,0,06/10/12
+Review Social History,258,06/11/12
+Review Social History,269,06/12/12
+Review Social History,246,06/13/12
+Review Social History,263,06/14/12
+Review Social History,264,06/15/12
+Review Social History,13,06/16/12
+Review Social History,0,06/17/12
+Review Social History,264,06/18/12
+Review Social History,260,06/19/12
+Review Social History,242,06/20/12
+Review Social History,221,06/21/12
+Review Social History,205,06/22/12
+Review Social History,0,06/23/12
+Review Social History,0,06/24/12
+Review Social History,301,06/25/12
+Review Social History,311,06/26/12
+Review Social History,293,06/27/12
+Review Social History,297,06/28/12
+Review Social History,278,06/29/12
+Review Social History,11,06/30/12
+Review Special History,79,06/01/12
+Review Special History,16,06/02/12
+Review Special History,0,06/03/12
+Review Special History,149,06/04/12
+Review Special History,120,06/05/12
+Review Special History,97,06/06/12
+Review Special History,103,06/07/12
+Review Special History,93,06/08/12
+Review Special History,14,06/09/12
+Review Special History,0,06/10/12
+Review Special History,73,06/11/12
+Review Special History,118,06/12/12
+Review Special History,119,06/13/12
+Review Special History,103,06/14/12
+Review Special History,97,06/15/12
+Review Special History,5,06/16/12
+Review Special History,0,06/17/12
+Review Special History,79,06/18/12
+Review Special History,115,06/19/12
+Review Special History,65,06/20/12
+Review Special History,62,06/21/12
+Review Special History,77,06/22/12
+Review Special History,0,06/23/12
+Review Special History,0,06/24/12
+Review Special History,98,06/25/12
+Review Special History,115,06/26/12
+Review Special History,114,06/27/12
+Review Special History,97,06/28/12
+Review Special History,102,06/29/12
+Review Special History,5,06/30/12
+Review/Discuss Documents During Visit,185,06/01/12
+Review/Discuss Documents During Visit,14,06/02/12
+Review/Discuss Documents During Visit,0,06/03/12
+Review/Discuss Documents During Visit,271,06/04/12
+Review/Discuss Documents During Visit,256,06/05/12
+Review/Discuss Documents During Visit,278,06/06/12
+Review/Discuss Documents During Visit,240,06/07/12
+Review/Discuss Documents During Visit,226,06/08/12
+Review/Discuss Documents During Visit,25,06/09/12
+Review/Discuss Documents During Visit,0,06/10/12
+Review/Discuss Documents During Visit,287,06/11/12
+Review/Discuss Documents During Visit,242,06/12/12
+Review/Discuss Documents During Visit,254,06/13/12
+Review/Discuss Documents During Visit,202,06/14/12
+Review/Discuss Documents During Visit,223,06/15/12
+Review/Discuss Documents During Visit,22,06/16/12
+Review/Discuss Documents During Visit,0,06/17/12
+Review/Discuss Documents During Visit,245,06/18/12
+Review/Discuss Documents During Visit,248,06/19/12
+Review/Discuss Documents During Visit,231,06/20/12
+Review/Discuss Documents During Visit,198,06/21/12
+Review/Discuss Documents During Visit,184,06/22/12
+Review/Discuss Documents During Visit,0,06/23/12
+Review/Discuss Documents During Visit,0,06/24/12
+Review/Discuss Documents During Visit,243,06/25/12
+Review/Discuss Documents During Visit,234,06/26/12
+Review/Discuss Documents During Visit,169,06/27/12
+Review/Discuss Documents During Visit,203,06/28/12
+Review/Discuss Documents During Visit,207,06/29/12
+Review/Discuss Documents During Visit,10,06/30/12
+Sign-off/Close Encounter,394,06/01/12
+Sign-off/Close Encounter,50,06/02/12
+Sign-off/Close Encounter,0,06/03/12
+Sign-off/Close Encounter,593,06/04/12
+Sign-off/Close Encounter,537,06/05/12
+Sign-off/Close Encounter,507,06/06/12
+Sign-off/Close Encounter,503,06/07/12
+Sign-off/Close Encounter,433,06/08/12
+Sign-off/Close Encounter,34,06/09/12
+Sign-off/Close Encounter,0,06/10/12
+Sign-off/Close Encounter,545,06/11/12
+Sign-off/Close Encounter,505,06/12/12
+Sign-off/Close Encounter,465,06/13/12
+Sign-off/Close Encounter,419,06/14/12
+Sign-off/Close Encounter,470,06/15/12
+Sign-off/Close Encounter,34,06/16/12
+Sign-off/Close Encounter,0,06/17/12
+Sign-off/Close Encounter,513,06/18/12
+Sign-off/Close Encounter,477,06/19/12
+Sign-off/Close Encounter,437,06/20/12
+Sign-off/Close Encounter,401,06/21/12
+Sign-off/Close Encounter,389,06/22/12
+Sign-off/Close Encounter,0,06/23/12
+Sign-off/Close Encounter,0,06/24/12
+Sign-off/Close Encounter,551,06/25/12
+Sign-off/Close Encounter,525,06/26/12
+Sign-off/Close Encounter,491,06/27/12
+Sign-off/Close Encounter,522,06/28/12
+Sign-off/Close Encounter,498,06/29/12
+Sign-off/Close Encounter,35,06/30/12
+Verify Patient Pharmacy Eligibility,393,06/01/12
+Verify Patient Pharmacy Eligibility,50,06/02/12
+Verify Patient Pharmacy Eligibility,0,06/03/12
+Verify Patient Pharmacy Eligibility,592,06/04/12
+Verify Patient Pharmacy Eligibility,534,06/05/12
+Verify Patient Pharmacy Eligibility,504,06/06/12
+Verify Patient Pharmacy Eligibility,501,06/07/12
+Verify Patient Pharmacy Eligibility,433,06/08/12
+Verify Patient Pharmacy Eligibility,34,06/09/12
+Verify Patient Pharmacy Eligibility,0,06/10/12
+Verify Patient Pharmacy Eligibility,542,06/11/12
+Verify Patient Pharmacy Eligibility,503,06/12/12
+Verify Patient Pharmacy Eligibility,460,06/13/12
+Verify Patient Pharmacy Eligibility,416,06/14/12
+Verify Patient Pharmacy Eligibility,469,06/15/12
+Verify Patient Pharmacy Eligibility,34,06/16/12
+Verify Patient Pharmacy Eligibility,0,06/17/12
+Verify Patient Pharmacy Eligibility,510,06/18/12
+Verify Patient Pharmacy Eligibility,474,06/19/12
+Verify Patient Pharmacy Eligibility,434,06/20/12
+Verify Patient Pharmacy Eligibility,397,06/21/12
+Verify Patient Pharmacy Eligibility,388,06/22/12
+Verify Patient Pharmacy Eligibility,0,06/23/12
+Verify Patient Pharmacy Eligibility,0,06/24/12
+Verify Patient Pharmacy Eligibility,549,06/25/12
+Verify Patient Pharmacy Eligibility,524,06/26/12
+Verify Patient Pharmacy Eligibility,489,06/27/12
+Verify Patient Pharmacy Eligibility,529,06/28/12
+Verify Patient Pharmacy Eligibility,497,06/29/12
+Verify Patient Pharmacy Eligibility,35,06/30/12
