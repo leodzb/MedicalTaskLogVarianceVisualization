@@ -207,25 +207,25 @@ var graph = d3.csv(csvpath, function(data) {
       .attr("stroke-width", "0px"), tooltip.html("<ul id='tipInfo'><li>Date: " + mmdd + "</li> <li>Task: "+ d.key + "</li><li> Number: " + pro +  "</li></ul>" ).style("visibility", "hidden");
   })
     //  the vertical line following the mouse
-  // var vertical = d3.select(".chart")
-  //       .append("div")
-  //       .attr("class", "remove")
-  //       .style("position", "absolute")
-  //       .style("z-index", "19")
-  //       .style("width", "1px")
-  //       .style("height", "380px")
-  //       .style("position", "absolute")
-  //       .style("background", "#fff");
+  var vertical = d3.select(".chart")
+        .append("div")
+        .attr("class", "remove")
+        .style("position", "absolute")
+        .style("z-index", "19")
+        .style("width", "1px")
+        .style("height", "380px")
+        .style("position", "absolute")
+        .style("background", "#fff");
 
-  // d3.select(".chart")
-  //     .on("mousemove", function(){  
-  //        mousex = d3.mouse(this);
-  //        mousex = mousex[0]-2;
-  //        vertical.style("left", mousex + "px" )})
-  //     .on("mouseover", function(){  
-  //        mousex = d3.mouse(this);
-  //        mousex = mousex[0]-2;
-  //        vertical.style("left", mousex + "px")});
+  d3.select(".chart")
+      .on("mousemove", function(){  
+         mousex = d3.mouse(this);
+         mousex = mousex[0]+12;
+         vertical.style("left", mousex + "px" )})
+      .on("mouseover", function(){  
+         mousex = d3.mouse(this);
+         mousex = mousex[0]+12;
+         vertical.style("left", mousex + "px")});
 }); // read file end
 }  // end of main function
 
