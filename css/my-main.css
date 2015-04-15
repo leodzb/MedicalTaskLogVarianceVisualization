@@ -1,0 +1,107 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-circle {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  padding: 1.5px 0px 1.5px 1px;
+  font-size: 8px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+}
+
+.centered{
+    text-align: center;
+}
+
+.upper-row, .lower-row{
+	height: 45%;
+}
+
+.upper-row .upper-col{
+	float: center;
+    border: 1px solid black;
+    display: inline-block;
+    height: 100%;
+    width: 70%;
+
+}
+
+.lower-row .lower-left{
+	width: 50%;
+    border: 1px solid black;
+    height: 100%;
+    float: left;
+}
+
+.lower-row .lower-right{
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    float: right;
+
+}
+
+.mid-row{
+	height: 10%;
+}
+
+.lower-row div{
+	display: inline-block;
+}
+
+
+/* arrow control*/
+.btn-div {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	width: 30px;
+	margin-top: 14px;
+
+}
+
+.glyphicon-chevron-up{
+	position: absolute;
+  top: -9px;
+  left: 36%;
+}
+.glyphicon-chevron-left{
+  position: absolute;
+  left: -0.5px;
+}
+.glyphicon-chevron-right{
+	position: absolute;
+	right:-1.5px;
+}
+.glyphicon-chevron-down{
+	position: absolute;
+  top: 13px;
+  left: 36%;
+}
+.glyphicon-plus{
+	position: absolute;
+	left: 10.9px;
+
+}
+
+.btn-div .glyphicon:hover,
+.btn-div .glyphicon:active{
+	color: red;
+}
+
+/* end of arrow control*/
+
+.d3plus_drawer{
+	position: relative;
+}

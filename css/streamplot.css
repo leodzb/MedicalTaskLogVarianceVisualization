@@ -3,10 +3,14 @@ body {
   font-size: 10px;
 
 }
-
+.testselect{
+  text-align: center;
+  margin: 10px 10px 20px 40px;
+}
 .chart { 
   background: #fff;
-  font-family: 'Titillium Web', Helvetica,  sans-serif;
+/*  position: static;
+*/  font-family: 'Titillium Web', Helvetica,  sans-serif;
 
 }
 
@@ -31,7 +35,6 @@ p {
   opacity: 0.7
 }
 button {
-  position: absolute;
   right: 50px;
   top: 10px;
 }

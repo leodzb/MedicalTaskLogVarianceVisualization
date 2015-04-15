@@ -1,20 +1,36 @@
-// athena_deptStem
-// var dep_id = document.getEelementById()
-
 
 var dep_id = "overview";
-if (dep_id == "overview"){
-  chart("./athena_deptStem.csv", "blue");
-}
-else {
-  chart("./athena_perid.csv", "blue");
-
-}
 var datearray = [];
 var colorrange = [];
 var subtitleTxt = "Overall View";
 
-function chart(csvpath, color) {
+var csvpath = "./athena_deptStem.csv";
+var color = "blue";
+
+setTimeout(function(){
+  streamChart();
+}, 1000);
+
+
+// onchange department id
+$("#departmentID").change(function(){
+  dep_id = $(this).val()
+  var datearray = [];
+  var colorrange = [];
+  var subtitleTxt = "Overall View";
+  $(".departIDtxt p").remove();
+  $(".chart svg").remove();
+
+  if (dep_id == "overview"){
+    streamChart();
+  }
+  else {
+    streamChart();
+  }
+}); // end of onchange
+
+// Main Function
+function streamChart(){
 
 if (color == "blue") {
   colorrange = ["#045A8D", "#2B8CBE", "#74A9CF", "#A6BDDB", "#D0D1E6", "#F1EEF6"];
@@ -26,16 +42,21 @@ else if (color == "pink") {
 }
 else if (color == "orange") {
   colorrange = ["#B30000", "#E34A33", "#FC8D59", "#FDBB84", "#FDD49E", "#FEF0D9"];
-  // colorrange = ["#084081", "#0868ac", "#2b8cbe", "#4eb3d3", "#7bccc4", "#a8ddb5", "#ccebc5", "#e0f3db", "#f7fcf0"]
 
 }
+
 strokecolor = colorrange[0];
 
 var format = d3.time.format("%m/%d/%y"); //set reader for date.format
 // size and margin
-var margin = {top: 20, right: 40, bottom: 30, left: 40};
-var width = document.body.clientWidth - margin.left - margin.right;
-var height = 400 - margin.top - margin.bottom;
+
+var upperRowWidth = $('.lower-left').width();
+var upperRowHeight = $('.lower-left').innerHeight()-40;
+
+
+var margin = {top: 20, right: 40, bottom: 20, left: 40};
+var width = upperRowWidth - margin.left - margin.right;
+var height = upperRowHeight - margin.top - margin.bottom;
 
 // Create a tip abstract to show detail
 var tooltip = d3.select("body")
@@ -47,11 +68,6 @@ var tooltip = d3.select("body")
     .style("top", "30px")
     .style("left", "55px");
 
-  // var tip = d3.tip()
-  // .attr('class', 'd3-tip')
-  // .offset([-10, 0])
-  // .html(function(d){ return "<ul id='tipInfo'><li>Date: " + mmdd + "</li> <li>Task: "+ d.key + "</li><li> Number: " + pro + "</li></ul>";
-  // });
 
 var x = d3.time.scale() // use scale to set range
     .range([0, width]);
@@ -98,6 +114,8 @@ var svg = d3.select(".chart").append("svg")
 
 // read data and pass it into 2-d presentation
 var filters = {'dep_id':dep_id};
+
+// read file start 
 var graph = d3.csv(csvpath, function(data) {
   // get process of data if dep_id is given
   if (data[0].hasOwnProperty('dep_id')){
@@ -106,13 +124,14 @@ var graph = d3.csv(csvpath, function(data) {
       return row['dep_id'] == dep_id;
     })
   }
+  
   data.forEach(function(d) {
     d.date = format.parse(d.date); // read and parse date
-    d.value = +d.value; // aggregate value
+    d.value = +d.value; // parse value
   });
 
   var layers = stack(nest.entries(data)); // call stack function
-// set domain of x and y
+  // set domain of x and y
   x.domain(d3.extent(data, function(d) { return d.date; })); 
   y.domain([0, d3.max(data, function(d) { return d.y0 + d.y; })]);
 
@@ -154,9 +173,11 @@ var graph = d3.csv(csvpath, function(data) {
       // console.log(d.values[0].date);
       mousex = d3.mouse(this);
       mousex = mousex[0];
+      // console.log(mousex);
       var invertedx = x.invert(mousex);
       invertedx = invertedx.getMonth() + invertedx.getDate();
       var selected = (d.values);
+      // console.log(selected);
       for (var k = 0; k < selected.length; k++) {
         datearray[k] = selected[k].date;
         datearray[k] = datearray[k].getMonth() + datearray[k].getDate();
@@ -165,13 +186,8 @@ var graph = d3.csv(csvpath, function(data) {
       pro = d.values[mousedate].value;
       mmdd = d.values[mousedate].date;
       mmdd = mmdd.toDateString()
- 
-    // svg.call(tip);
-    // d3.select(this)
-    //   .on('mouseover', tip.show)
-    //   .on('mouseout', tip.hide)
-
-// change 
+      
+      // mouse hover and out
       d3.select(this)
       .classed("hover", true)
       .attr("stroke", strokecolor)
@@ -190,27 +206,26 @@ var graph = d3.csv(csvpath, function(data) {
       .classed("hover", false)
       .attr("stroke-width", "0px"), tooltip.html("<ul id='tipInfo'><li>Date: " + mmdd + "</li> <li>Task: "+ d.key + "</li><li> Number: " + pro +  "</li></ul>" ).style("visibility", "hidden");
   })
-    
-  var vertical = d3.select(".chart")
-        .append("div")
-        .attr("class", "remove")
-        .style("position", "absolute")
-        .style("z-index", "19")
-        .style("width", "1px")
-        .style("height", "380px")
-        .style("top", "10px")
-        .style("bottom", "30px")
-        .style("left", "0px")
-        .style("background", "#fff");
+    //  the vertical line following the mouse
+  // var vertical = d3.select(".chart")
+  //       .append("div")
+  //       .attr("class", "remove")
+  //       .style("position", "absolute")
+  //       .style("z-index", "19")
+  //       .style("width", "1px")
+  //       .style("height", "380px")
+  //       .style("position", "absolute")
+  //       .style("background", "#fff");
 
-  d3.select(".chart")
-      .on("mousemove", function(){  
-         mousex = d3.mouse(this);
-         mousex = mousex[0] + 5;
-         vertical.style("left", mousex + "px" )})
-      .on("mouseover", function(){  
-         mousex = d3.mouse(this);
-         mousex = mousex[0] + 5;
-         vertical.style("left", mousex + "px")});
-});
-}
+  // d3.select(".chart")
+  //     .on("mousemove", function(){  
+  //        mousex = d3.mouse(this);
+  //        mousex = mousex[0]-2;
+  //        vertical.style("left", mousex + "px" )})
+  //     .on("mouseover", function(){  
+  //        mousex = d3.mouse(this);
+  //        mousex = mousex[0]-2;
+  //        vertical.style("left", mousex + "px")});
+}); // read file end
+}  // end of main function
+

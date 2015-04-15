@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<!-- Google Font CSS-->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+<link rel="stylesheet" type="text/css" href="css/BootstrapXL.css">
+<link rel="stylesheet" type="text/css" href="css/my-main.css">
+<link rel="stylesheet" type="text/css" href="css/streamplot.css">
+<link rel="stylesheet" type="text/css" href="css/barplot2.css">
+<script src="http://d3js.org/d3.v3.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="http://www.d3plus.org/js/d3plus.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script src="js/bootstrap.js"></script>
+
+</head>
+
+<body>
+
+<!-- header section -->
+<section id="header">
+	<div class="container">
+		<div class="row">
+			<h1>Visualizations</h1>
+		</div>
+	</div>
+</section>
+<!-- end of header -->	
+
+<!--visualizations panel section -->
+<section id="visualizations">
+	<div class="container">
+		<div class="row centered upper-row">
+			<div id="upper" class="upper-col">
+			    <form id="ticketbtn">
+			      <label><input id="multiples" class="radiobtn" type="radio" name="mode" value="multiples" disabled> Multiples</label>
+			      <label><input id="stacked" type="radio" class="radiobtn" name="mode" value="stacked" checked> Stacked </label>
+			    </form>
+			    <!-- d3 vis -->
+			</div>
+
+		</div>
+		<div class="row centered mid-row">
+			<div class="col-xl-12 btn-div">
+				<i class="glyphicon glyphicon-chevron-left left-arrow"></i>
+				<i class="glyphicon glyphicon-chevron-up up-arrow"></i>
+				<i class="glyphicon glyphicon-chevron-right right-arrow" ></i>
+				<i class="glyphicon glyphicon-chevron-down down-arrow"></i>
+				<i class="glyphicon glyphicon-plus plus-reset"></i>
+
+			</div>
+		</div>
+		<div class="lower-row">
+			<div class="lower-left">
+				<div class="departIDtxt"></div>
+				<div class="chart"></div>
+			</div>
+
+			<div class="lower-right" >
+				<div id="box-viz"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--visualizations panel  section-->
+
+
+
+<script src="js/my-main.js"></script>
+<script src="js/barplot2.js"></script>
+<script src="js/streamplot.js"></script>
+<script src="js/boxplot.js"></script>
+
+
+<!-- 	<section id="streamplot" class="unhidden">
+		<div class="container">
+			<div class="row">
+				<select id="departmentID" class="selectpicker testselect" data-style="btn-primary" >
+					<option value="overview">Overview</option>
+					<option value="6">6</option>
+				</select>
+			</div>
+			<div class="row">
+				<div class="departIDtxt"></div>
+				<div class="chart"></div>
+			</div>
+		</div>
+		<script src="js/streamplot.js"></script>	
+	</section> -->
+<!-- 
+	<section id="barplot" class="hidden">
+	    <form>
+	      <label><input type="radio" name="mode" value="multiples" checked> Multiples</label>
+	      <label><input type="radio" name="mode" value="stacked"> Stacked </label>
+	    </form>
+	</section>
+    <script src="js/barplot2.js"></script>
+
+
+        <div id="viz"></div>
+
+    <script src="js/boxplot.js"></script>
+ --></body>
