@@ -22,7 +22,7 @@ $( ".right-arrow" ).click(function() {
 	    opacity: 1,
 	 }, 1000)
   	.animate({  
-            width: "75%" 
+            width: "75%" //75 dsb
     }, 400);
   $(".lower-right")
   	.animate({
@@ -76,11 +76,11 @@ $( ".down-arrow" ).click(function() {
  	
   $( ".upper-row" )
   	.animate({
-	    height: 0.8* ($(window).innerHeight()-120),
+	    height: 0.9* ($(window).innerHeight()-120),
 	    opacity: 1,
 	 }, 1000)
   	.animate({  
-        height: 0.75* ($(window).innerHeight()-120),
+        height: 0.85* ($(window).innerHeight()-120),
     }, 400);
   $(".lower-row")
   	.animate({
