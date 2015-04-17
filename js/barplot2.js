@@ -1,9 +1,9 @@
 
 var margin = {
     top: 30,
-    right: 20,
+    right: 220,
     bottom: 40,
-    left: 150
+    left: 65
 };
 
 
@@ -171,11 +171,12 @@ var graph = d3.csv("./athena_deptStem.csv", function(data) {
         .call(yAxis)
         .append("text")
         .attr("transform", "rotate(-90)")
-        .attr("y", 6)
+        .attr("y", 36)
         .attr("x", "1em")
-        .attr("dy", ".71em")
+        .attr("dy", ".91em")
         .style("text-anchor", "end")
-        .text("Total Task Groups in Each Department")
+        .text("Spread of Task Groups")
+		//.attr("font-weight","bold")
         .attr("y", -50);
 
     // x axis
@@ -222,12 +223,14 @@ var graph = d3.csv("./athena_deptStem.csv", function(data) {
             .attr("transform", "translate(-1, 0 )")
             .call(yAxis)
             .append("text")
+			.attr("text-align","left")
             .attr("transform", "rotate(-90)")
-            .attr("y", 6)
+            .attr("y", 36)
             .attr("x", "1em")
-            .attr("dy", ".71em")
+            .attr("dy", ".91em")
             .style("text-anchor", "end")
-            .text("Total Task Groups in Each Department")
+            .text("Spread of Task Groups")
+			//.style("font-weight","bold")
             .attr("y", -50);
 
         if (upperRowHeight<130){
@@ -235,6 +238,47 @@ var graph = d3.csv("./athena_deptStem.csv", function(data) {
         }
 
     }
+	
+	//dsb
+	
+	var legend = svg.selectAll(".legend")
+      .data(color.domain().slice().reverse())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(210," + i * 8 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 5)
+      .attr("y", -20)
+      .attr("width", 6)
+      .attr("height", 6)
+      .style("fill", color);
+
+  legend.append("text")
+      .attr("x", width - 18)
+      .attr("y", -15)
+      //.attr("dy", ".02em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d; });
+	  
+	 var heading = svg.selectAll(".heading")
+      .data([1])
+    .enter().append("g")
+      .attr("class", "heading")
+      .attr("transform", function(d, i) { return "translate(20,8)"; });
+	  
+	heading.append("text")
+      .attr("x", -20)
+      .attr("y", -24)
+      //.attr("dy", ".02em")
+      .style("fill","green")
+      .style("text-align","center")
+      .style("font-size","100%")
+      .style("font-weight","bold")
+      .text("Stacked-Bar chart. Comparison of the distribution of 20 EHR Tasks (see legend) on each of the 30 days, and across them.");
+
+		  
+	//dsb  
 
     function transitionMultiples() {
         var t = svg.transition().duration(750),
