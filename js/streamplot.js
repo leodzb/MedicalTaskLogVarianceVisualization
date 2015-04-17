@@ -2,7 +2,7 @@
 var dep_id = "overview";
 var datearray = [];
 var colorrange = [];
-var subtitleTxt = "Overall View";
+var subtitleTxt = "Stream-Graph. Visualizing the continuity in the spread of Tasks.";
 
 var csvpath = "./athena_deptStem.csv";
 var color = "blue";
@@ -17,7 +17,7 @@ $("#departmentID").change(function(){
   dep_id = $(this).val()
   var datearray = [];
   var colorrange = [];
-  var subtitleTxt = "Overall View";
+  var subtitleTxt = "Stream-Graph. Visualizing the continuity in the spread of Tasks.";
   $(".departIDtxt p").remove();
   $(".chart svg").remove();
 
@@ -99,6 +99,11 @@ var nest = d3.nest() // create a nest dictionary structure interperator
     .key(function(d) { return d.key; });
 
 
+
+	
+	
+	
+	
 var area = d3.svg.area()
     .interpolate("cardinal") // line shape like cardinal line
     .x(function(d) { return x(d.date); })
@@ -112,6 +117,10 @@ var svg = d3.select(".chart").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+	
+
+	
+	
 // read data and pass it into 2-d presentation
 var filters = {'dep_id':dep_id};
 
@@ -143,7 +152,8 @@ var graph = d3.csv(csvpath, function(data) {
       .style("fill", function(d, i) { return z(i); }); // call z and fill color
 
   d3.select(".departIDtxt").append("p")
-      .text(subtitleTxt);
+      .text(subtitleTxt)
+	  .attr("transform", "translate(50,0)");
 
   svg.append("g")
       .attr("class", "x axis")
